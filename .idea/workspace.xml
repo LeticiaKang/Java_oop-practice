@@ -77,12 +77,12 @@
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="org.example.calculate" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculate.CalculatorTest" />
       <option name="METHOD_NAME" value="calculateExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,45 +93,29 @@
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="org.example.calculate" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculate.CalculatorTest" />
       <option name="METHOD_NAME" value="createTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveNumberTest.calculateExceptionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PositiveNumberTest" />
+      <option name="PACKAGE_NAME" value="org.example.calculate" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculate.PositiveNumberTest" />
       <option name="METHOD_NAME" value="calculateExceptionTest(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositiveNumberTest.createTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-pratice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PositiveNumberTest" />
-      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,13 +125,29 @@
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PositiveNumberTest" />
+      <option name="PACKAGE_NAME" value="org.example.calculate" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculate.PositiveNumberTest" />
       <option name="METHOD_NAME" value="createTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveNumberTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-pratice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculate" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculate.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,13 +183,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/calculate/CalculatorTest.java</url>
+          <line>35</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/calculate/CalculatorTest.java</url>
+          <line>28</line>
           <properties class="org.example.CalculatorTest" method="calculatorTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
